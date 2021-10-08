@@ -16,7 +16,7 @@ jobs:
       - name: Build DS918+ 7.0.1
         id: build-ds918-701
         run: |
-            bash build-ds918-7.0.1new.sh
+            bash build-ds918-7.0.1me.sh
       - name: Archive DS918+ 7.0.1 loader image
         uses: actions/upload-artifact@v2
         with:
