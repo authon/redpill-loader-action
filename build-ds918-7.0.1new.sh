@@ -10,6 +10,8 @@ cd ds918-7.0.1
 
 # download redpill
 git clone --depth=1 https://github.com/jumkey/redpill-lkm.git
+git clone --depth=1 https://github.com/RedPill-TTG/redpill-extensions.git
+git clone --depth=1 https://github.com/RedPill-TTG/redpill-virtio.git
 git clone --depth=1 --branch=develop https://github.com/jumkey/redpill-load.git
 
 # download syno toolkit
@@ -28,5 +30,5 @@ cd ..
 cd redpill-load
 cp ${root}/user_config.DS918+.json ./user_config.json
 sudo ./build-loader.sh 'DS918+' '7.0.1-42218'
-mv images/rp-918-v7.0.1*.img ${root}/output/
+mv images/*.img ${root}/output/
 cd ${root}
