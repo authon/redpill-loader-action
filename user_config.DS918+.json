@@ -8,5 +8,9 @@
   "synoinfo": {
     "supportsystemperature": "no",
     "supportsystempwarning": "no"
-  }
+  },
+  "extensions": [
+    "thethorgroup.virtio",
+    "example_dev.example_extension"
+  ]
 }
