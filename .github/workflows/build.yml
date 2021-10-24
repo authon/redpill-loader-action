@@ -3,9 +3,6 @@ name: Build RedPill DSM loader
 
 on: workflow_dispatch
 
-  watch:
-     types: [started]
-
 jobs:
   redpill:
     runs-on: ubuntu-latest
